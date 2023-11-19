@@ -10,6 +10,8 @@
 		934859DB2B09E7C6005477E5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859DA2B09E7C6005477E5 /* MainTabView.swift */; };
 		934859DD2B09ED9F005477E5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859DC2B09ED9F005477E5 /* ProfileView.swift */; };
 		934859E02B0A0CAD005477E5 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859DF2B0A0CAD005477E5 /* UserStatView.swift */; };
+		934859E22B0A4EE7005477E5 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859E12B0A4EE7005477E5 /* FeedView.swift */; };
+		934859E42B0A4EF0005477E5 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859E32B0A4EF0005477E5 /* FeedCell.swift */; };
 		936F14582B08993500413CD8 /* learn_instagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F14572B08993500413CD8 /* learn_instagramApp.swift */; };
 		936F145A2B08993500413CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F14592B08993500413CD8 /* ContentView.swift */; };
 		936F145C2B08993500413CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936F145B2B08993500413CD8 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		934859DA2B09E7C6005477E5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		934859DC2B09ED9F005477E5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		934859DF2B0A0CAD005477E5 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		934859E12B0A4EE7005477E5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		934859E32B0A4EF0005477E5 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		936F14542B08993500413CD8 /* learn-instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-instagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		936F14572B08993500413CD8 /* learn_instagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_instagramApp.swift; sourceTree = "<group>"; };
 		936F14592B08993500413CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		934859D42B09E50A005477E5 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				934859E12B0A4EE7005477E5 /* FeedView.swift */,
+				934859E32B0A4EF0005477E5 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -250,10 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934859E42B0A4EF0005477E5 /* FeedCell.swift in Sources */,
 				934859DD2B09ED9F005477E5 /* ProfileView.swift in Sources */,
 				936F145A2B08993500413CD8 /* ContentView.swift in Sources */,
 				936F14582B08993500413CD8 /* learn_instagramApp.swift in Sources */,
 				934859E02B0A0CAD005477E5 /* UserStatView.swift in Sources */,
+				934859E22B0A4EE7005477E5 /* FeedView.swift in Sources */,
 				934859DB2B09E7C6005477E5 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
