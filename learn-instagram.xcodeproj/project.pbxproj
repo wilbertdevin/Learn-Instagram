@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934859DB2B09E7C6005477E5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859DA2B09E7C6005477E5 /* MainTabView.swift */; };
 		936F14582B08993500413CD8 /* learn_instagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F14572B08993500413CD8 /* learn_instagramApp.swift */; };
 		936F145A2B08993500413CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F14592B08993500413CD8 /* ContentView.swift */; };
 		936F145C2B08993500413CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936F145B2B08993500413CD8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		934859DA2B09E7C6005477E5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		936F14542B08993500413CD8 /* learn-instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-instagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		936F14572B08993500413CD8 /* learn_instagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_instagramApp.swift; sourceTree = "<group>"; };
 		936F14592B08993500413CD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934859D32B09E4F6005477E5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		934859D42B09E50A005477E5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		934859D52B09E516005477E5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		934859D62B09E522005477E5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		934859D72B09E52B005477E5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		934859D82B09E53B005477E5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				934859DA2B09E7C6005477E5 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		934859D92B09E53F005477E5 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
 		936F144B2B08993400413CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +103,11 @@
 		936F14562B08993500413CD8 /* learn-instagram */ = {
 			isa = PBXGroup;
 			children = (
-				936F14572B08993500413CD8 /* learn_instagramApp.swift */,
+				937BE4C32B09CAB80071006C /* App */,
+				937BE4C22B09CAB60071006C /* Core */,
+				937BE4C12B09CAB30071006C /* Extension */,
+				937BE4BE2B09CAA80071006C /* Model */,
+				937BE4BD2B09CA8F0071006C /* Services */,
 				936F14592B08993500413CD8 /* ContentView.swift */,
 				936F145B2B08993500413CD8 /* Assets.xcassets */,
 				936F145D2B08993500413CD8 /* Preview Content */,
@@ -65,6 +121,49 @@
 				936F145E2B08993500413CD8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		937BE4BD2B09CA8F0071006C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		937BE4BE2B09CAA80071006C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		937BE4C12B09CAB30071006C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		937BE4C22B09CAB60071006C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				934859D32B09E4F6005477E5 /* Authentication */,
+				934859D42B09E50A005477E5 /* Feed */,
+				934859D52B09E516005477E5 /* Profile */,
+				934859D62B09E522005477E5 /* Root */,
+				934859D72B09E52B005477E5 /* Search */,
+				934859D82B09E53B005477E5 /* TabBar */,
+				934859D92B09E53F005477E5 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		937BE4C32B09CAB80071006C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				936F14572B08993500413CD8 /* learn_instagramApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +238,7 @@
 			files = (
 				936F145A2B08993500413CD8 /* ContentView.swift in Sources */,
 				936F14582B08993500413CD8 /* learn_instagramApp.swift in Sources */,
+				934859DB2B09E7C6005477E5 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
