@@ -44,7 +44,7 @@ struct ProfileView: View {
                     
                     // name and bio
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Chandwick Boseman")
+                        Text("Dee Doo")
                             .font(.footnote)
                             .fontWeight(.semibold)
                         
