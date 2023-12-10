@@ -22,7 +22,7 @@ extension User {
         .init(id: NSUUID().uuidString, username: "Batman", profileImageUrl: "groot", fullname: "I am Groot", bio: "Gotham's Dark Knight", email: "batman@gmail.com"),
         .init(id: NSUUID().uuidString, username: "Venom", profileImageUrl: "venom", fullname: "Eddie Brock", bio: "Venom", email: "venom@gmail.com"),
         .init(id: NSUUID().uuidString, username: "Iron Man", profileImageUrl: "ironman", fullname: "Tony Stark", bio: "Playboy & Billionaire", email: "batman@gmail.com"),
-        .init(id: NSUUID().uuidString, username: "Blackpanther", profileImageUrl: "blackpanther", fullname: nil, bio: "Wakanda Forever", email: "blackpanther@gmail.com"),
+        .init(id: NSUUID().uuidString, username: "BlackPanther", profileImageUrl: "blackpanther", fullname: nil, bio: "Wakanda Forever", email: "blackpanther@gmail.com"),
         .init(id: NSUUID().uuidString, username: "Spiderman", profileImageUrl: "spiderman", fullname: "Peter Parker", bio: "Test Bio", email: "spiderman@gmail.com")
 
 
