@@ -25,6 +25,7 @@
 		934859E82B0B6CE3005477E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859E72B0B6CE3005477E5 /* LoginView.swift */; };
 		934859EA2B0B9262005477E5 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859E92B0B9262005477E5 /* AddEmailView.swift */; };
 		934859EC2B0B9DB2005477E5 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934859EB2B0B9DB2005477E5 /* IGTextFieldModifier.swift */; };
+		934F58F32B2BF92E00B93FF1 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F58F22B2BF92E00B93FF1 /* ImageUploader.swift */; };
 		935CFA0E2B1734DA007324DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935CFA0D2B1734DA007324DA /* User.swift */; };
 		9369800E2B2B5A7B00308F31 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9369800D2B2B5A7B00308F31 /* EditProfileView.swift */; };
 		936980122B2B612A00308F31 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936980112B2B612A00308F31 /* EditProfileViewModel.swift */; };
@@ -64,6 +65,7 @@
 		934859E72B0B6CE3005477E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		934859E92B0B9262005477E5 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		934859EB2B0B9DB2005477E5 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		934F58F22B2BF92E00B93FF1 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		935CFA0D2B1734DA007324DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9369800D2B2B5A7B00308F31 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		936980112B2B612A00308F31 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				93283A402B25A8720090DB72 /* UserService.swift */,
+				934F58F22B2BF92E00B93FF1 /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				93882D002B1EAF2000503395 /* ContentViewModel.swift in Sources */,
 				9369800E2B2B5A7B00308F31 /* EditProfileView.swift in Sources */,
 				9380E7B32B202CE200C73A01 /* LoginViewModel.swift in Sources */,
+				934F58F32B2BF92E00B93FF1 /* ImageUploader.swift in Sources */,
 				93882D032B1EC35700503395 /* RegistrationViewModel.swift in Sources */,
 				93DB4A132B1D5EF6008EB541 /* UploadPostViewModel.swift in Sources */,
 				931CF6AC2B19B4E60002371D /* ProfileHeaderView.swift in Sources */,
